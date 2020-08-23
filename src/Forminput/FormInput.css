@@ -1,0 +1,42 @@
+
+
+form input , form button , span{
+        padding: 0.6rem;
+        border: none;
+        outline: none;
+        font-size:1.4rem;
+        background:white;
+}
+
+span{
+    background:rgb(74, 74, 224);
+}
+
+form button{
+    color:#d88771;
+    background:white;
+    cursor: pointer;
+    transition:all 0.3s ease;
+}
+
+.all-clear{
+    background: rgb(236, 118, 118);
+    color:white;
+}
+
+form button:hover{
+    color:white;
+    background:#f5b19e;
+}
+
+.todo-edit{
+        padding: 0.6rem;
+        border: none;
+        outline: none;
+        font-size:1.4rem;
+        background:green;
+        color:white;
+}
+.todo-edit:hover{
+    background:rgb(3, 184, 3);
+}

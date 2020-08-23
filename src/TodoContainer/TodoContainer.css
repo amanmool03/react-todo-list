@@ -1,0 +1,53 @@
+.todo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-list{
+    list-style: none;
+    min-width: 40%;
+}
+
+.todo{
+    background: white;
+    color:black;
+    display: flex;
+    font-size: 1.4rem;
+    margin: 0.5rem;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 1s ease;
+}
+
+.todo-item{
+    flex: 1;
+    padding: 0 0.4rem;
+}
+.complete-btn,.trash-btn,.edit-btn
+{
+    font-size: 1rem;
+    padding: 1rem;
+    background: #ff6f47;
+    border: none;
+    color: white;
+    cursor: pointer;
+    outline: none;
+
+}
+
+.complete-btn{
+    background: rgb(73,204,73);
+}
+
+.trash-btn{
+    background: rgb(231, 80, 80)
+}
+.fa-trash , .fa-check , .fa-pen{
+    pointer-events: none;
+}
+
+.completed{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
