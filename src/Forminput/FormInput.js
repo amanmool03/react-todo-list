@@ -3,7 +3,7 @@ import './FormInput.css'
 export default function FormInput(props) {
     return (
         <form>
-            <span><i className="fas fa-book"></i></span>
+            <span className="book"><i className="fas fa-book"></i></span>
             <input type="text" className="todo-input"
                 value={props.item}
                 onChange={props.handleChange}

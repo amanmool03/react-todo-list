@@ -58,3 +58,16 @@
         min-width: 90%;
     }
 }
+
+
+@media (max-width:600px){
+  
+
+.todo-list{
+    list-style: none;
+    min-width: 90%;
+    padding: 0;
+}
+
+
+}

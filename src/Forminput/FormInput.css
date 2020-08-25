@@ -40,3 +40,18 @@ form button:hover{
 .todo-edit:hover{
     background:rgb(3, 184, 3);
 }
+
+@media (max-width:400px){
+    form input , form button , span{
+        padding: 0.6rem;
+        border: none;
+        outline: none;
+        font-size:1rem;
+        background:white;
+}
+
+.book{
+    display: none;
+}
+
+}
